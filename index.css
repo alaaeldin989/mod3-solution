@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'tajawal' ,sans-serif;
+}
+.navbar{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.text{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.page{
+    height: 100vh;
+}
+.title h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: black;
+    font-size: 2.7rem;
+}
+.card{
+    padding: 20px;
+    background-color: gray;
+    color: black;
+    border-radius: 0;
+}
+.chicken{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.card p{
+    font-weight: 700;
+}
+.sushi{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.beef{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.col-md-12{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.zer{
+    background-color: rgb(207, 206, 206);
+}
+.col-sm-12{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:991px){
+    .list li{
+display: none;
+    }
+}
+
+
+@media(max-width:991px){
+    .ok{
+        border-top: 1px solid black;
+        padding: 15px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.3rem;
+
+    }
+    .second{
+       color: black;
+        text-align: center;
+        padding: 15px;
+        border-bottom:1px solid black ;
+        border-top:1px solid black ;
+        font-weight: 700;
+        font-size: 1.3rem;
+
+    }
+    .third{
+       color: black;
+        text-align: center;
+        font-weight: 700;
+font-size: 1.3rem;
+    }
+}
